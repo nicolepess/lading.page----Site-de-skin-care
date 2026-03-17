@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    color: #222;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Logo com fonte sofisticada */
+header .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #222;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu li:hover {
+    color: #ff3366; /* efeito de destaque ao passar o mouse */
+}
+
+/* Seção principal */
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+}
+
+/* Card do produto */
+.hero-text {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 340px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.hero-text:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagem do produto */
+.hero img {
+    width: 180px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+/* Título do produto */
+.hero-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+/* Descrição */
+.hero-text p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Preço */
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+/* Botão comprar estilo premium */
+button {
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e60050;
+}
+
+/* Rodapé */
+footer {
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+}
